@@ -6,15 +6,16 @@
 
 2. Kemudian isi kolom Repository name dan Description. 
 
-![](Aspose.Words.4287b99a-d0cf-4980-ba64-acb7151cf845.002.png)
+![gambar](https://user-images.githubusercontent.com/111225906/184666748-c4eb5bd7-5001-48b3-9d79-3791f20d2282.png)
 
 3. Klik “create repository”
 
-![](Aspose.Words.4287b99a-d0cf-4980-ba64-acb7151cf845.003.png)
+![gambar](https://user-images.githubusercontent.com/111225906/184666872-316d4620-796d-4d0f-8ad3-865a6ce54585.png)
 
 4. Selanjutnya Anda akan melihat halaman setup. Ini adalah petunjuk untuk menghubungkan Repo yang anda buat di Github ke direktori yang anda buat di komputer Anda.
 
-![](Aspose.Words.4287b99a-d0cf-4980-ba64-acb7151cf845.003.png)
+![gambar](https://user-images.githubusercontent.com/111225906/184666985-30953e43-fe66-4b84-8a02-6cee4abbbb85.png)
+
 
 5. Selanjutnya menghubungkan Repo yang baru di buat ke di Github ke direktory 'Lokal' dan menambahkan 1 file bernama Readme.
 ```

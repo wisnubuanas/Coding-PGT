@@ -2,7 +2,7 @@
 
 1. Buka Github dan klik tombol '+' di pojok kanan rop dan pilih 'New Repository'.
 
-![this is an image](Aspose.Words.4287b99a-d0cf-4980-ba64-acb7151cf845.001.png)
+![gambar](https://user-images.githubusercontent.com/111225906/184666599-aba3c3b6-7890-48b8-9f11-e8fdc55ba2f8.png)
 
 2. Kemudian isi kolom Repository name dan Description. 
 

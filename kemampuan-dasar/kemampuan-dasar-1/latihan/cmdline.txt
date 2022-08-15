@@ -1,0 +1,1056 @@
+1.	Ping
+berfungsi untuk mengecek ping/kecepatan internet
+C:\Users\hp>ping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=48ms TTL=56
+Reply from 8.8.8.8: bytes=32 time=68ms TTL=56
+Reply from 8.8.8.8: bytes=32 time=44ms TTL=56
+Reply from 8.8.8.8: bytes=32 time=54ms TTL=56
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 68ms, Average = 53ms
+
+
+2. tree
+berfungsi untuk menampilkan struktur dalam suatu folder
+D:\KULIAH>tree
+Folder PATH listing for volume New Volume
+Volume serial number is 2265-9BF3
+D:.
+├───ANANTA
+├───PKL
+│   ├───BERKAS PKL
+│   │   └───Panggilan_Kerja_Praktek_secara_ONLINE_Periode_Maret_2021
+│   └───LAPORAN PKL
+├───PROKER BAHAN
+├───SEMESTER 4 KULON
+│   ├───ACDC
+│   ├───Analog
+│   ├───Antarmuka Komp
+│   ├───K3
+│   ├───LAPRAK
+│   ├───Medan
+│   ├───PLC
+├───SEMESTER 5 KULON
+│   ├───ETIKA
+│   ├───INS INDUSTRI
+│   ├───INS OPTIK
+│   │   └───Video Optik
+│   ├───KWU
+│   │   └───Presentasi pak eko
+│   ├───MEKATRONIKA
+│   ├───PNEUMATIK
+│   │   ├───UAS
+│   │   └───UTS
+│   └───SCADA
+├───SMT 6
+│   ├───DDI
+│   ├───MATEMATIKA
+│   └───PKL
+├───TUGAS AKHIRRR
+│   ├───Bahan pdf
+│   ├───BERKAS SIDANG
+│   │   └───BERKAS SIDANG WISNU B
+│   ├───BERKAS WISUDA
+│   ├───CD TA Wisnu B
+│   │   └───coding_TA
+│   ├───DAPUS TA
+│   ├───Laporan TA
+│   └───Proposal TA
+└───WEBINAR KKL
+    ├───WEBINAR #1
+    ├───WEBINAR #2
+    ├───WEBINAR #3
+    └───WEBINAR #4
+
+3. whoami
+berfungsi untuk melihat nama user yang ada di komputer 
+C:\Users\hp>whoami
+desktop-93tj0u7\hp
+
+
+4. ipconfig
+berfungsi untuk melihat konfigurasi ip address
+C:\Users\hp>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 5:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::148c:d905:1d2a:275d%22
+   IPv4 Address. . . . . . . . . . . : 192.168.43.98
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.43.250
+
+
+5.cls
+berfungsi untuk menghapus semua teks di cmd
+ C:\Users\hp>cls
+
+
+6. tasklist
+berungsi untuk mengetahui aplikasi yang sedang berjalan
+C:\Users\hp>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0        136 K
+Registry                       108 Services                   0     30,316 K
+smss.exe                       372 Services                   0        952 K
+csrss.exe                      572 Services                   0      4,676 K
+wininit.exe                    684 Services                   0      5,576 K
+csrss.exe                      692 Console                    1      4,820 K
+winlogon.exe                   784 Console                    1      8,536 K
+services.exe                   828 Services                   0      7,260 K
+lsass.exe                      836 Services                   0     15,236 K
+svchost.exe                    968 Services                   0     19,824 K
+fontdrvhost.exe                996 Console                    1      7,016 K
+fontdrvhost.exe               1000 Services                   0      3,776 K
+svchost.exe                    564 Services                   0     13,816 K
+dwm.exe                        992 Console                    1     29,760 K
+svchost.exe                   1084 Services                   0     58,176 K
+svchost.exe                   1124 Services                   0     13,992 K
+svchost.exe                   1156 Services                   0     18,112 K
+atiesrxx.exe                  1476 Services                   0      3,028 K
+
+7. help
+berfungsi menampilkan fungsi apa saja yang bisa dipakai di cmd 
+C:\Users\hp>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+
+8. Time
+berfungsi untuk menampilkan waktu			
+C:\Users\hp>time
+The current time is: 21:12:11.34
+Enter the new time:
+
+
+9. vol 
+menampilkan volume label dan nomer serial
+C:\Users\hp>vol
+ Volume in drive C has no label.
+ Volume Serial Number is D29C-8D11
+
+
+10. exit
+berfungsi untuk keluar dari aplikasi cmd
+C:\Users\hp>exit
+
+
+11. systeminfo
+berfungsi untuk menampilkan informasi komputer
+C:\Users\hp>systeminfo
+
+Host Name:                 DESKTOP-93TJ0U7
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19044 N/A Build 19044
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          hp
+Registered Organization:
+Product ID:                00331-10000-00000-AA285
+Original Install Date:     8/21/2021, 7:52:32 PM
+System Boot Time:          8/14/2022, 8:59:08 AM
+System Manufacturer:       HP
+System Model:              HP Notebook
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 22 Model 48 Stepping 1 AuthenticAMD ~1800 Mhz
+BIOS Version:              Insyde F.25, 1/19/2017
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             in;Indonesian
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     3,550 MB
+Available Physical Memory: 1,039 MB
+Virtual Memory: Max Size:  6,750 MB
+Virtual Memory: Available: 1,435 MB
+Virtual Memory: In Use:    5,315 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-93TJ0U7
+Hotfix(s):                 9 Hotfix(s) Installed.
+                           [01]: KB5013887
+                           [02]: KB4562830
+                           [03]: KB5003791
+                           [04]: KB5013942
+                           [05]: KB5007273
+                           [06]: KB5009636
+                           [07]: KB5011352
+                           [08]: KB5014032
+                           [09]: KB5005699
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Realtek RTL8723BE 802.11 bgn Wi-Fi Adapter
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.43.250
+                                 IP address(es)
+                                 [01]: 192.168.43.98
+                                 [02]: fe80::148c:d905:1d2a:275d
+                           [02]: Realtek PCIe FE Family Controller
+                                 Connection Name: Ethernet 2
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: No
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+12. date
+berfungsi untuk menampilkan tanggal pada cmd
+ C:\Users\hp>date
+The current date is: Mon 08/15/2022
+Enter the new date: (mm-dd-yy)
+
+
+13. taskmgr
+berfungsi untuk membuka task manager
+ C:\Users\hp>taskmgr
+
+
+14. assoc
+memeriksa ekstensi file untuk sebuah jenis file 
+ C:\Users\hp>assoc 
+.3gp=WMP11.AssocFile.3GP
+.7z=WinRAR
+.AAC=WMP11.AssocFile.ADTS
+.aaui=Acrobat.aaui
+.acl=ACLFile
+.aco=Photoshop.SwatchesFile
+.acrobatsecuritysettings=Acrobat.acrobatsecuritysettings
+.act=Photoshop.ColorTableFile
+.acv=Photoshop.CurvesFile
+.ade=Access.ADEFile.16
+.adn=Access.BlankProjectTemplate.16
+.ado=Photoshop.DuotoneSettingsFile
+.adobebridge=Adobe.adobebridge
+.adp=Access.Project.16
+.ADT=WMP11.AssocFile.ADTS
+.ADTS=WMP11.AssocFile.ADTS
+.aep=Adobe.AfterEffects.Project.100
+.aepx=Adobe.AfterEffects.XMLProject.100
+.aet=Adobe.AfterEffects.ProjectTemplate.100
+.aex=Adobe.AfterEffects.Effect
+.Agui=AltiumAGUIDesignFile
+.ahs=Photoshop.HalftoneScreens
+.ahu=Photoshop.HueSatFile
+.ai=Adobe.Illustrator.16
+.aia=Adobe.Illustrator.Action
+.aif=VLC.aif
+.aifc=VLC.aifc
+.aiff=VLC.aiff
+.aip=Adobe.Illustrator.Plugin
+.ait=Adobe.Illustrator.Template
+.alac=mplayerc.alac
+.alv=Photoshop.LevelsFile
+.ameprojCS6=AME1ProjectFile_64
+.amf=Winamp.File.amf
+.amp=Photoshop.ArbitraryMapFile
+.ams=Photoshop.MonitorSetupFile
+.amv=VLC.amv
+.ani=anifile
+.aob=VLC.aob
+.aom=Adobe.AfterEffects.OutputModule.100
+.ape=VLC.ape
+.api=Acrobat.Plugin
+.apk=Nox.apk
+.apl=Photoshop.AdobePlugIn
+.appcontent-ms=ApplicationContent
+.application=Application.Manifest
+.appref-ms=Application.Reference
+.Apr=CAMtasticApertureData
+.Apt=CAMtasticApertureData
+.arj=WinRAR
+.ars=Adobe.AfterEffects.RenderSettings.100
+.asa=aspfile
+.asd=Word.AutoRecovery.8
+.ase=Adobe.Illustrator.SwatchExchange
+.asf=WMP11.AssocFile.ASF
+.asl=Photoshop.Styles
+.asm=ASMSourceFile
+.asp=aspfile
+.ast=Photoshop.SepTablesFile
+.asv=Photoshop.ASVColAdjFile
+.asx=VLC.asx
+.atf=Photoshop.TransferFunctionsFile
+.atn=Photoshop.ActionsFile
+.au=VLC.au
+.ava=Photoshop.VariationsFile
+.avi=WMP11.AssocFile.AVI
+.avr=Winamp.File.avr
+.aw=AWFile
+.axt=Photoshop.AXTAdjColFile
+.b4s=VLC.b4s
+.bas=AltiumScriptDocument
+.bat=batfile
+.bdmv=mplayerc.bdmv
+.bik=VLC.bik
+.bin=VLC.bin
+.blg=Diagnostic.Perfmon.Document
+.blw=Photoshop.BWPresets
+.bmp=Paint.Picture
+.BomDoc=BomDocument
+.bpdx=AcrobatBPDXFileType
+.bpg=BorlandProjectGroup
+.bz=WinRAR
+.bz2=WinRAR
+.c=DevCpp.c
+.cab=WinRAR
+.caf=VLC.caf
+.Cam=AltiumCAMtasticDocument
+.camp=campfile
+.cat=CATFile
+.cda=VLC.cda
+.cdc=NeroCoverDesigner.Files7.cdc
+.cdm=cdmfile
+.cdmp=cdmpfile
+.cdr=CorelDraw.Graphic.17
+.cdt=CorelDraw.Graphic.17
+.cdx=aspfile
+.cdxml=Microsoft.PowerShellCmdletDefinitionXML.1
+.cer=CERFile
+.cha=Photoshop.CHAFile
+.chk=chkfile
+.chm=chm.file
+.cin=CX-IntegratorFile
+.Ckt=SimulationSubCircuit
+.CL2=Omron Datalink Table File
+.CL3=Omron Datalink Table File
+.CLK=CorelDraw.Graphic.17
+.cmd=cmdfile
+.CmpLib=AltiumComponentLibrary
+.cmx=CorelDRAW.CMX.17
+.collection=Bridge.Collection
+.com=comfile
+.compositefont=Windows.CompositeFont
+.config=VSTA.config.9.0
+.Constraint=AltiumConstraintFile
+.corelextension=zcf.corelextension
+.cpj=CXPrc.Document
+.cpl=cplfile
+.cpp=DevCpp.cpp
+.CPR=CPR.Document
+.CPR2=CPR2.Document
+.CPT=CorelPHOTOPAINT.Image.20
+.crl=CRLFile
+.crt=CERFile
+.crtx=CRTXFile
+.cs=VSTA.cs.9.0
+.csf=Adobe.Illustrator.ColorSettings
+.csh=Photoshop.CustomShapes
+.csl=CorelDraw.Graphic.17
+.csp=Corel.SBProfile
+.csproj=VSTA.csproj.9.0
+.css=CSSfile
+.csv=Excel.CSV
+.cth=CX-ThermoProjectFile
+.cue=VLC.cue
+.cur=curfile
+.CXP=Cxp.Document
+.CXT=cxt_auto_file
+.datasource=VSTA.datasource.9.0
+.db=dbfile
+.DBLib=AltiumDatabaseLibraryFile
+.DBLink=AltiumDatabaseLinkFile
+.dbml=VSTA.ORDesigner.9.0
+.dcp=Photoshop.DNGCameraProfile.60
+.dcpr=Photoshop.DNGCameraProfileRecipe.60
+.dcr=Photoshop.CameraRawFileKodak.60
+.dct=Adobe.Illustrator.Dictionary
+.dctx=IMEDictionaryCompiler
+.dctxc=IMEDictionaryCompiler
+.dds=ddsfile
+.del=Adobe.Premiere.Edit.Decision.List
+.der=CERFile
+.DES=CorelDESIGNER.Graphic.20
+.desklink=CLSID\{9E56BE61-C50F-11CF-9A2C-00A0C90A90CE}
+.deskthemepack=desktopthemepackfile
+.DesWrk=AltiumWorkspace
+.det=Outlook.File.det.15
+.dev=DevCpp.dev
+.devpackage=DevCpp.devpackage
+.devpak=DevCpp.devpak
+.dfm=DelphiForm
+.diagcab=Diagnostic.Cabinet
+.diagcfg=Diagnostic.Config
+.diagpkg=Diagnostic.Document
+.dib=Paint.Picture
+.disco=VSTA.disco.9.0
+.dll=dllfile
+.dlx=Adobe.Premiere.Movie
+.dmx-info=dmx-info-file
+.dng=Photoshop.CameraRawFileDigital.60
+.doc=Word.Document.8
+.dochtml=wordhtmlfile
+.docm=Word.DocumentMacroEnabled.12
+.docmhtml=wordmhtmlfile
+.docx=Word.Document.12
+.docxml=wordxmlfile
+.dot=Word.Template.8
+.dothtml=wordhtmltemplate
+.dotm=Word.TemplateMacroEnabled.12
+.dotx=Word.Template.12
+.dpk=DelphiPackage
+.dpr=DelphiProject
+.dqy=dqyfile
+.drc=VLC.drc
+.Drl=CAMtasticNCDrillBinaryData
+.Drr=AltiumNCDrillReportFile
+.drv=drvfile
+.dsn=Proteus 8 Professional.dsn
+.DsnWrk=AltiumProjectGroup
+.dtd=VSTA.dtd.9.0
+.dts=VLC.dts
+.dv=VLC.dv
+.dvf=Configurator.SubDocument
+.dvr-ms=VLC.dvr-ms
+.dwfx=Windows.XPSReachViewer
+.dzm=dzmfile
+.dzp=dzpfile
+.dzt=dztfile
+.eap=Photoshop.ExposureAdjustment
+.easmx=Windows.XPSReachViewer
+.Edf=AltiumEDIFDocument
+.Edi=AltiumEDIFDocument
+.Edif=AltiumEDIFDocument
+.EdifLib=AltiumEDIFLibrary
+.Edn=AltiumEDIFDocument
+.edrwx=Windows.XPSReachViewer
+.elm=ELMFile
+.emf=emffile
+.eml=Outlook.File.eml.15
+.eprtx=Windows.XPSReachViewer
+.est=CX-ThermoFile
+.evo=VLC.evo
+.evt=evtfile
+.evtx=evtxfile
+.exe=exefile
+.exr=Photoshop.OpenEXRFile.60
+.f4v=VLC.f4v
+.far=Winamp.File.far
+.fcdt=FormsCentral.fcdt
+.fcht=Flowgorithm Chart Style
+.fclr=Flowgorithm Color Scheme
+.fdf=Acrobat.FDFDoc
+.fdm=Outlook.File.fdm.15
+.ffo=Photoshop.FileInfo
+.ffx=Adobe.AfterEffects.Preset
+.fill=zcf.fillfile
+.fl3=Photoshop.FL3FileType.60
+.flac=WMP11.AssocFile.FLAC
+.FLN=Fln.Document
+.flt=Adobe.Illustrator.Filter
+.flv=VLC.flv
+.fon=fonfile
+.fpgt=Flowgorithm Program Template
+.FpgTrg=AltiumConstraintFile
+.fprg=Flowgorithm Program
+.FSMDoc=AltiumFSMDocument
+.fxg=Adobe.Illustrator.fxg
+
+15. cmdkey
+berfungsi membuat, menghapus, atau melihat username dan password yang digunakan untuk login ke komputer
+C:\Users\hp>cmdkey
+
+Creates, displays, and deletes stored user names and passwords.
+
+The syntax of this command is:
+
+CMDKEY [{/add | /generic}:targetname {/smartcard | /user:username {/pass{:password}}} | /delete{:targetname | /ras} | /list{:targetname}]
+
+Examples:
+
+  To list available credentials:
+     cmdkey /list
+     cmdkey /list:targetname
+
+  To create domain credentials:
+     cmdkey /add:targetname /user:username /pass:password
+     cmdkey /add:targetname /user:username /pass
+     cmdkey /add:targetname /user:username
+     cmdkey /add:targetname /smartcard
+
+  To create generic credentials:
+     The /add switch may be replaced by /generic to create generic credentials
+
+  To delete existing credentials:
+     cmdkey /delete:targetname
+
+  To delete RAS credentials:
+     cmdkey /delete /ras
+
+16. del
+berfungsi untuk menghapus file
+C:\Users\hp>del d:\abc.txt
+
+
+17. dir
+berfungsi untuk menampilkan file dan folder yang masih
+ C:\Users\hp>dir
+ Volume in drive C has no label.
+ Volume Serial Number is D29C-8D11
+
+ Directory of C:\Users\hp
+
+07/22/2022  01:38 PM    <DIR>          .
+07/22/2022  01:38 PM    <DIR>          ..
+04/20/2020  02:01 PM    <DIR>          .android
+09/15/2019  09:36 PM    <DIR>          .borland
+07/03/2022  07:26 PM    <DIR>          .ms-ad
+05/23/2019  03:37 PM               162 .packettracer
+07/22/2022  01:38 PM    <DIR>          .vscode
+08/21/2021  07:56 PM    <DIR>          3D Objects
+04/11/2019  01:57 PM    <DIR>          Cisco Packet Tracer 7.2
+08/21/2021  07:56 PM    <DIR>          Contacts
+08/11/2022  08:37 PM    <DIR>          Desktop
+08/15/2022  07:26 AM    <DIR>          Documents
+08/14/2022  01:39 PM    <DIR>          Downloads
+08/21/2021  07:56 PM    <DIR>          Favorites
+11/08/2018  07:13 PM                66 inittk.ini
+11/08/2018  07:10 PM                41 inst.ini
+08/21/2021  07:56 PM    <DIR>          Links
+08/02/2022  03:05 PM    <DIR>          Music
+10/06/2020  01:11 PM    <DIR>          My Drivers
+11/08/2018  07:11 PM    <DIR>          Nox_share
+11/08/2018  07:11 PM                45 nuuid.ini
+02/28/2020  11:44 PM    <DIR>          OneDrive
+06/09/2022  11:25 PM    <DIR>          Pictures
+08/21/2021  07:56 PM    <DIR>          Saved Games
+08/21/2021  07:56 PM    <DIR>          Searches
+06/04/2022  10:33 PM    <DIR>          Videos
+04/20/2020  01:59 PM    <DIR>          vmlogs
+               4 File(s)            314 bytes
+              23 Dir(s)  14,402,502,656 bytes free
+
+
+18. driverquery 
+berfungsi untuk menampilkan daftar driver yang diinstal di pc
+C:\Users\hp>driverquery
+
+Module Name  Display Name           Driver Type   Link Date
+============ ====================== ============= ======================
+1394ohci     1394 OHCI Compliant Ho Kernel
+3ware        3ware                  Kernel        5/19/2015 5:28:03 AM
+ACPI         Microsoft ACPI Driver  Kernel
+AcpiDev      ACPI Devices driver    Kernel
+acpiex       Microsoft ACPIEx Drive Kernel
+acpipagr     ACPI Processor Aggrega Kernel
+AcpiPmi      ACPI Power Meter Drive Kernel
+acpitime     ACPI Wake Alarm Driver Kernel
+Acx01000     Acx01000               Kernel
+ADP80XX      ADP80XX                Kernel        4/10/2015 3:49:48 AM
+AFD          Ancillary Function Dri Kernel
+afunix       afunix                 Kernel
+ahcache      Application Compatibil Kernel
+AmdAS4       AmdAS4 service         Kernel        11/9/2015 9:21:00 AM
+amdgpio2     AMD GPIO Client Driver Kernel        2/7/2019 4:32:20 PM
+amdi2c       AMD I2C Controller Ser Kernel        3/20/2019 11:57:33 AM
+AmdK8        AMD K8 Processor Drive Kernel
+amdkmcsp     AMD Kernel Mode CSP Se Kernel        6/6/2017 4:26:40 AM
+amdkmdag     amdkmdag               Kernel        10/6/2016 10:28:10 PM
+amdkmdap     amdkmdap               Kernel        10/6/2016 10:06:16 PM
+amdkmpfd     AMD PCI Root Bus Lower Kernel        2/10/2016 6:17:03 AM
+AmdPPM       AMD Processor Driver   Kernel
+amdpsp       AMD PSP Service        Kernel        6/19/2019 9:45:11 PM
+amdsata      amdsata                Kernel        5/14/2015 7:14:52 PM
+amdsbs       amdsbs                 Kernel        12/12/2012 4:21:44 AM
+amdxata      amdxata                Kernel        5/1/2015 7:55:35 AM
+ampa         ampa                   Kernel        11/10/2015 8:34:49 AM
+AppID        AppID Driver           Kernel
+applockerflt Smartlocker Filter Dri Kernel
+AppvStrm     AppvStrm               File System
+AppvVemgr    AppvVemgr              File System
+AppvVfs      AppvVfs                File System
+arcsas       Adaptec SAS/SATA-II RA Kernel        4/10/2015 2:12:07 AM
+AsyncMac     RAS Asynchronous Media Kernel
+atapi        IDE Channel            Kernel
+AtiHDAudioSe AMD Function Driver fo Kernel        7/17/2019 5:40:53 AM
+b06bdrv      QLogic Network Adapter Kernel        5/25/2016 2:03:08 PM
+bam          Background Activity Mo Kernel
+BasicDisplay BasicDisplay           Kernel
+BasicRender  BasicRender            Kernel
+bcmfn2       bcmfn2 Service         Kernel        11/1/2016 9:09:15 AM
+Beep         Beep                   Kernel
+bindflt      Windows Bind Filter Dr File System
+bowser       Browser                File System
+BthA2dp      Microsoft Bluetooth A2 Kernel
+BthAudioHF   Mono Audio             Kernel        9/6/2015 9:53:16 AM
+BthEnum      Bluetooth Enumerator S Kernel
+BthHFAud     Microsoft Bluetooth Ha Kernel
+BthHFEnum    Microsoft Bluetooth Ha Kernel
+BthLEEnum    Bluetooth Low Energy D Kernel
+BthMini      Bluetooth Radio Driver Kernel
+BTHMODEM     Bluetooth Modem Commun Kernel
+BthPan       Bluetooth Device (Pers Kernel
+BTHPORT      Bluetooth Port Driver  Kernel
+BTHUSB       Bluetooth Radio USB Dr Kernel
+bttflt       Microsoft Hyper-V VHDP Kernel
+buttonconver Service for Portable D Kernel
+CAD          Charge Arbitration Dri Kernel
+cdfs         CD/DVD File System Rea File System
+cdrom        CD-ROM Driver          Kernel
+cht4iscsi    cht4iscsi              Kernel        2/5/2019 8:51:31 PM
+cht4vbd      Chelsio Virtual Bus Dr Kernel        2/5/2019 8:47:51 PM
+CimFS        CimFS                  File System
+circlass     Consumer IR Devices    Kernel
+CldFlt       Windows Cloud Files Fi File System
+CLFS         Common Log (CLFS)      Kernel
+CmBatt       Microsoft ACPI Control Kernel
+CNG          CNG                    Kernel
+cnghwassist  CNG Hardware Assist al Kernel
+CompositeBus Composite Bus Enumerat Kernel
+condrv       Console Driver         Kernel
+CSC          Offline Files Driver   Kernel
+dam          Desktop Activity Moder Kernel
+ddmdrv       ddmdrv                 Kernel        6/15/2011 5:00:17 PM
+Dfsc         DFS Namespace Client D File System
+disk         Disk Driver            Kernel
+dmvsc        dmvsc                  Kernel
+drmkaud      Microsoft Trusted Audi Kernel
+DroidCam     DroidCam Virtual Audio Kernel        4/11/2020 2:32:28 AM
+DroidCamVide DroidCam Source 3      Kernel        4/10/2021 9:06:07 AM
+DXGKrnl      LDDM Graphics Subsyste Kernel
+ebdrv        QLogic 10 Gigabit Ethe Kernel        5/25/2016 2:01:05 PM
+EhStorClass  Enhanced Storage Filte Kernel
+EhStorTcgDrv Microsoft driver for s Kernel
+ErrDev       Microsoft Hardware Err Kernel
+ETD          ELAN Input Device      Kernel        8/8/2016 10:44:07 AM
+ETDSMBus     ETDSMBus               Kernel        6/1/2016 4:18:43 PM
+EterlogicVir EterlogicVirtualSerial Kernel        6/23/2019 5:41:43 AM
+exfat        exFAT File System Driv File System
+fastfat      FAT12/16/32 File Syste File System
+fdc          Floppy Disk Controller Kernel
+FileCrypt    FileCrypt              File System
+FileInfo     File Information FS Mi File System
+Filetrace    Filetrace              File System
+flpydisk     Floppy Disk Driver     Kernel
+FltMgr       FltMgr                 File System
+FsDepends    File System Dependency File System
+fvevol       BitLocker Drive Encryp Kernel
+gencounter   Microsoft Hyper-V Gene Kernel
+genericusbfn Generic USB Function C Kernel
+GPIOClx0101  Microsoft GPIO Class E Kernel
+GpuEnergyDrv GPU Energy Driver      Kernel
+HdAudAddServ Microsoft 1.1 UAA Func Kernel
+HDAudBus     Microsoft UAA Bus Driv Kernel
+HidBatt      HID UPS Battery Driver Kernel
+HidBth       Microsoft Bluetooth HI Kernel
+hidi2c       Microsoft I2C HID Mini Kernel
+hidinterrupt Common Driver for HID  Kernel
+HidIr        Microsoft Infrared HID Kernel
+hidspi       Microsoft SPI HID Mini Kernel
+HidUsb       Microsoft HID Class Dr Kernel
+HpSAMD       HpSAMD                 Kernel        3/27/2013 4:36:54 AM
+HTTP         HTTP Service           Kernel
+hvcrash      hvcrash                Kernel
+hvservice    Hypervisor/Virtual Mac Kernel
+HwNClx0101   Microsoft Hardware Not Kernel
+hwpolicy     Hardware Policy Driver Kernel
+hyperkbd     hyperkbd               Kernel
+HyperVideo   HyperVideo             Kernel
+i8042prt     PS/2 Keyboard and Mous Kernel
+iagpio       Intel Serial IO GPIO C Kernel        7/23/2018 4:04:46 PM
+iai2c        Intel(R) Serial IO I2C Kernel        7/23/2018 4:04:39 PM
+iaLPSS2i_GPI Intel(R) Serial IO GPI Kernel        4/19/2018 2:53:24 PM
+iaLPSS2i_GPI Intel(R) Serial IO GPI Kernel        4/17/2018 4:25:15 PM
+iaLPSS2i_GPI Intel(R) Serial IO GPI Kernel        4/17/2018 2:07:03 PM
+iaLPSS2i_GPI Intel(R) Serial IO GPI Kernel        5/16/2018 12:46:36 PM
+iaLPSS2i_I2C Intel(R) Serial IO I2C Kernel        4/19/2018 2:52:58 PM
+iaLPSS2i_I2C Intel(R) Serial IO I2C Kernel        4/17/2018 4:24:40 PM
+iaLPSS2i_I2C Intel(R) Serial IO I2C Kernel        7/15/2019 12:12:12 PM
+iaLPSS2i_I2C Intel(R) Serial IO I2C Kernel        5/16/2018 12:46:02 PM
+iaLPSSi_GPIO Intel(R) Serial IO GPI Kernel        2/2/2015 4:00:09 PM
+iaLPSSi_I2C  Intel(R) Serial IO I2C Kernel        2/24/2015 10:52:07 PM
+iaStorAVC    Intel Chipset SATA RAI Kernel        9/5/2019 7:07:32 PM
+iaStorV      Intel RAID Controller  Kernel        4/12/2011 1:48:16 AM
+ibbus        Mellanox InfiniBand Bu Kernel        6/19/2019 8:20:09 PM
+IDMWFP       IDMWFP                 Kernel        12/19/2018 9:52:11 PM
+IndirectKmd  Indirect Displays Kern Kernel
+IntcAzAudAdd Service for Realtek HD Kernel        8/29/2016 5:42:44 PM
+intelide     intelide               Kernel
+intelpep     Intel(R) Power Engine  Kernel
+intelpmax    Intel(R) Dynamic Devic Kernel
+intelppm     Intel Processor Driver Kernel
+iorate       Disk I/O Rate Filter D Kernel
+IpFilterDriv IP Traffic Filter Driv Kernel
+IPMIDRV      IPMIDRV                Kernel
+IPNAT        IP Network Address Tra Kernel
+IPT          IPT                    Kernel
+isapnp       isapnp                 Kernel
+iScsiPrt     iScsiPort Driver       Kernel
+ItSas35i     ItSas35i               Kernel        6/20/2019 2:35:34 PM
+kbdclass     Keyboard Class Driver  Kernel
+kbdhid       Keyboard HID Driver    Kernel
+kbldfltr     kbldfltr               Kernel
+kdnic        Microsoft Kernel Debug Kernel
+KSecDD       KSecDD                 Kernel
+KSecPkg      KSecPkg                Kernel
+ksthunk      Kernel Streaming Thunk Kernel
+lltdio       Link-Layer Topology Di Kernel
+LSI_SAS      LSI_SAS                Kernel        3/26/2015 2:36:48 AM
+LSI_SAS2i    LSI_SAS2i              Kernel        8/2/2017 8:29:59 PM
+LSI_SAS3i    LSI_SAS3i              Kernel        4/4/2019 1:54:35 PM
+LSI_SSS      LSI_SSS                Kernel        3/16/2013 6:39:38 AM
+luafv        UAC File Virtualizatio File System
+mausbhost    MA-USB Host Controller Kernel
+mausbip      MA-USB IP Filter Drive Kernel
+MbbCx        MBB Network Adapter Cl Kernel
+megasas      megasas                Kernel        3/5/2015 9:36:29 AM
+megasas2i    megasas2i              Kernel        4/4/2019 8:28:53 PM
+megasas35i   megasas35i             Kernel        6/20/2019 5:01:12 PM
+megasr       megasr                 Kernel        6/4/2013 5:02:39 AM
+Microsoft_Bl Microsoft Bluetooth Av Kernel
+mlx4_bus     Mellanox ConnectX Bus  Kernel        6/19/2019 8:21:08 PM
+MMCSS        Multimedia Class Sched Kernel
+Modem        Modem                  Kernel
+monitor      Microsoft Monitor Clas Kernel
+mouclass     Mouse Class Driver     Kernel
+mouhid       Mouse HID Driver       Kernel
+mountmgr     Mount Point Manager    Kernel
+mpsdrv       Windows Defender Firew Kernel
+MRxDAV       WebDav Client Redirect File System
+mrxsmb       SMB MiniRedirector Wra File System
+mrxsmb20     SMB 2.0 MiniRedirector File System
+MsBridge     Microsoft MAC Bridge   Kernel
+Msfs         Msfs                   File System
+msgpiowin32  Common Driver for Butt Kernel
+mshidkmdf    Pass-through HID to KM Kernel
+mshidumdf    Pass-through HID to UM Kernel
+msisadrv     msisadrv               Kernel
+MSKSSRV      Microsoft Streaming Se Kernel
+MSPCLOCK     Microsoft Streaming Cl Kernel
+MSPQM        Microsoft Streaming Qu Kernel
+MsQuic       MsQuic                 Kernel
+MsRPC        MsRPC                  Kernel
+MsSecFlt     Microsoft Security Eve Kernel
+mssmbios     Microsoft System Manag Kernel
+MSTEE        Microsoft Streaming Te Kernel
+MTConfig     Microsoft Input Config Kernel
+Mup          Mup                    File System
+mvumis       mvumis                 Kernel        5/24/2014 3:39:04 AM
+NativeWifiP  NativeWiFi Filter      Kernel
+ndfltr       NetworkDirect Service  Kernel        6/19/2019 8:18:42 PM
+NDIS         NDIS System Driver     Kernel
+NdisCap      Microsoft NDIS Capture Kernel
+NdisImPlatfo Microsoft Network Adap Kernel
+NdisTapi     Remote Access NDIS TAP Kernel
+Ndisuio      NDIS Usermode I/O Prot Kernel
+NdisVirtualB Microsoft Virtual Netw Kernel
+NdisWan      Remote Access NDIS WAN Kernel
+ndiswanlegac Remote Access LEGACY N Kernel
+NDKPing      NDKPing Driver         Kernel
+ndproxy      NDIS Proxy Driver      Kernel
+Ndu          Windows Network Data U Kernel
+NetAdapterCx Network Adapter Wdf Cl Kernel
+NetBIOS      NetBIOS Interface      File System
+NetBT        NetBT                  Kernel
+netvsc       netvsc                 Kernel
+NPF          NetGroup Packet Filter Kernel        3/1/2013 8:31:24 AM
+Npfs         Npfs                   File System
+npsvctrig    Named pipe service tri Kernel
+nsiproxy     NSI Proxy Service Driv Kernel
+Ntfs         Ntfs                   File System
+Null         Null                   Kernel
+nvdimm       Microsoft NVDIMM devic Kernel
+nvraid       nvraid                 Kernel        4/22/2014 1:28:42 AM
+nvstor       nvstor                 Kernel        4/22/2014 1:34:03 AM
+Parport      Parallel port driver   Kernel
+partmgr      Partition driver       Kernel
+pci          PCI Bus Driver         Kernel
+pciide       pciide                 Kernel
+pcmcia       pcmcia                 Kernel
+pcw          Performance Counters f Kernel
+pdc          pdc                    Kernel
+PEAUTH       PEAUTH                 Kernel
+percsas2i    percsas2i              Kernel        3/15/2016 7:50:11 AM
+percsas3i    percsas3i              Kernel        6/2/2018 4:47:02 AM
+PktMon       Packet Monitor Driver  Kernel
+pmem         Microsoft persistent m Kernel
+PNPMEM       Microsoft Memory Modul Kernel
+portcfg      portcfg                Kernel
+PptpMiniport WAN Miniport (PPTP)    Kernel
+Processor    Processor Driver       Kernel
+Psched       QoS Packet Scheduler   Kernel
+QWAVEdrv     QWAVE driver           Kernel
+Ramdisk      Windows RAM Disk Drive Kernel
+RasAcd       Remote Access Auto Con Kernel
+RasAgileVpn  WAN Miniport (IKEv2)   Kernel
+Rasl2tp      WAN Miniport (L2TP)    Kernel
+RasPppoe     Remote Access PPPOE Dr Kernel
+RasSstp      WAN Miniport (SSTP)    Kernel
+rdbss        Redirected Buffering S File System
+rdpbus       Remote Desktop Device  Kernel
+RDPDR        Remote Desktop Device  Kernel
+RdpVideoMini Remote Desktop Video M Kernel
+rdyboost     ReadyBoost             Kernel
+ReFS         ReFS                   File System
+ReFSv1       ReFSv1                 File System
+Revoflt      Revoflt                File System   12/30/2009 4:19:49 PM
+RFCOMM       Bluetooth Device (RFCO Kernel
+rhproxy      Resource Hub proxy dri Kernel
+rspndr       Link-Layer Topology Di Kernel
+rt640x64     Realtek RT640 NT Drive Kernel        1/7/2016 2:48:31 PM
+RtkBtFilter  Realtek Bluetooth Filt Kernel        11/1/2018 8:51:00 AM
+RtlWlanu     Realtek Wireless LAN 8 Kernel        7/29/2019 3:43:57 PM
+RTWlanE02    Realtek Wireless LAN 8 Kernel        5/26/2019 2:58:52 PM
+s3cap        s3cap                  Kernel
+sbp2port     SBP-2 Transport/Protoc Kernel
+scfilter     Smart card PnP Class F Kernel
+scmbus       Microsoft Storage Clas Kernel
+sdbus        sdbus                  Kernel
+SDFRd        SDF Reflector          Kernel
+sdstor       SD Storage Port Driver Kernel
+SerCx        Serial UART Support Li Kernel
+SerCx2       Serial UART Support Li Kernel
+Serenum      Serenum                Kernel
+Serial       Serial port driver     Kernel
+sermouse     Serial Mouse Driver    Kernel
+sfloppy      High-Capacity Floppy D Kernel
+SgrmAgent    System Guard Runtime M Kernel
+SiSRaid2     SiSRaid2               Kernel        9/25/2008 1:28:20 AM
+SiSRaid4     SiSRaid4               Kernel        10/2/2008 4:56:04 AM
+SmartSAMD    SmartSAMD              Kernel        2/22/2019 12:54:44 AM
+smbdirect    smbdirect              File System
+spaceparser  Space Parser           Kernel
+spaceport    Storage Spaces Driver  Kernel
+SpatialGraph Holographic Spatial Gr Kernel
+SpbCx        Simple Peripheral Bus  Kernel
+srv2         Server SMB 2.xxx Drive File System
+srvnet       srvnet                 File System
+stexstor     stexstor               Kernel        11/27/2012 7:02:51 AM
+storahci     Microsoft Standard SAT Kernel
+storflt      Microsoft Hyper-V Stor Kernel
+stornvme     Microsoft Standard NVM Kernel
+storqosflt   Storage QoS Filter Dri File System
+storufs      Microsoft Universal Fl Kernel
+storvsc      storvsc                Kernel
+swenum       Software Bus Driver    Kernel
+Synth3dVsc   Synth3dVsc             Kernel
+tapnordvpn   TAP-NordVPN Windows Ad Kernel        5/31/2018 4:50:28 PM
+Tcpip        TCP/IP Protocol Driver Kernel
+Tcpip6       @todo.dll,-100;Microso Kernel
+tcpipreg     TCP/IP Registry Compat Kernel
+tdx          NetIO Legacy TDI Suppo Kernel
+Telemetry    Intel(R) Telemetry Ser Kernel
+terminpt     Microsoft Remote Deskt Kernel
+TPM          TPM                    Kernel
+TsUsbFlt     Remote Desktop USB Hub Kernel
+TsUsbGD      Remote Desktop Generic Kernel
+tsusbhub     Remote Desktop USB Hub Kernel
+tunnel       Microsoft Tunnel Minip Kernel
+UASPStor     USB Attached SCSI (UAS Kernel
+UcmCx0101    USB Connector Manager  Kernel
+UcmTcpciCx01 UCM-TCPCI KMDF Class E Kernel
+UcmUcsiAcpiC UCM-UCSI ACPI Client   Kernel
+UcmUcsiCx010 UCM-UCSI KMDF Class Ex Kernel
+Ucx01000     USB Host Support Libra Kernel
+UdeCx        USB Device Emulation S Kernel
+udfs         udfs                   File System
+UEFI         Microsoft UEFI Driver  Kernel
+UevAgentDriv UevAgentDriver         File System
+Ufx01000     USB Function Class Ext Kernel
+UfxChipidea  USB Chipidea Controlle Kernel
+ufxsynopsys  USB Synopsys Controlle Kernel
+umbus        UMBus Enumerator Drive Kernel
+UmPass       Microsoft UMPass Drive Kernel
+UrsChipidea  Chipidea USB Role-Swit Kernel
+UrsCx01000   USB Role-Switch Suppor Kernel
+UrsSynopsys  Synopsys USB Role-Swit Kernel
+usbaudio     USB Audio Driver (WDM) Kernel
+usbaudio2    USB Audio 2.0 Service  Kernel
+usbccgp      Microsoft USB Generic  Kernel
+usbcir       eHome Infrared Receive Kernel
+usbehci      Microsoft USB 2.0 Enha Kernel
+usbhub       Microsoft USB Standard Kernel
+USBHUB3      SuperSpeed Hub         Kernel
+usbohci      Microsoft USB Open Hos Kernel
+usbprint     Microsoft USB PRINTER  Kernel
+usbser       Microsoft USB Serial D Kernel
+USBSTOR      USB Mass Storage Drive Kernel
+usbuhci      Microsoft USB Universa Kernel
+usbvideo     USB Video Device (WDM) Kernel
+USBXHCI      USB xHCI Compliant Hos Kernel
+vdrvroot     Microsoft Virtual Driv Kernel
+VerifierExt  Driver Verifier Extens Kernel
+vhdmp        vhdmp                  Kernel
+vhf          Virtual HID Framework  Kernel
+Vid          Vid                    Kernel
+VirtualRende VirtualRender          Kernel
+vmbus        Virtual Machine Bus    Kernel
+VMBusHID     VMBusHID               Kernel
+vmgid        Microsoft Hyper-V Gues Kernel
+vmulti       HUION HID              Kernel        3/16/2018 9:55:08 AM
+volmgr       Volume Manager Driver  Kernel
+volmgrx      Dynamic Volume Manager Kernel
+volsnap      Volume Shadow Copy dri Kernel
+volume       Volume driver          Kernel
+vpci         Microsoft Hyper-V Virt Kernel
+vsmraid      vsmraid                Kernel        4/23/2014 2:21:41 AM
+VSTXRAID     VIA StorX Storage RAID Kernel        1/22/2013 2:00:28 AM
+vwifibus     Virtual Wireless Bus D Kernel
+vwififlt     Virtual WiFi Filter Dr Kernel
+vwifimp      Virtual WiFi Miniport  Kernel
+WacomPen     Wacom Serial Pen HID D Kernel
+wanarp       Remote Access IP ARP D Kernel
+wanarpv6     Remote Access IPv6 ARP Kernel
+wcifs        Windows Container Isol File System
+wcnfs        Windows Container Name File System
+WdBoot       Microsoft Defender Ant Kernel
+Wdf01000     Kernel Mode Driver Fra Kernel
+WdFilter     Microsoft Defender Ant File System
+wdiwifi      WDI Driver Framework   Kernel
+WdmCompanion WdmCompanionFilter     Kernel
+WdNisDrv     Microsoft Defender Ant Kernel
+WFPLWFS      Microsoft Windows Filt Kernel
+WIMMount     WIMMount               File System
+WindowsTrust Windows Trusted Execut Kernel
+WindowsTrust Microsoft Windows Trus Kernel
+WinMad       WinMad Service         Kernel        6/19/2019 8:18:11 PM
+WinNat       Windows NAT Driver     Kernel
+WINUSB       Generic driver for USB Kernel
+WinVerbs     WinVerbs Service       Kernel        6/19/2019 8:18:12 PM
+WirelessButt HP Wireless Button Dri Kernel        11/12/2021 11:40:51 AM
+WmiAcpi      Microsoft Windows Mana Kernel
+Wof          Windows Overlay File S File System
+WpdUpFltr    WPD Upper Class Filter Kernel
+ws2ifsl      Winsock IFS Driver     Kernel
+WudfPf       User Mode Driver Frame Kernel
+WUDFRd       Windows Driver Foundat Kernel
+WUDFWpdFs    WPD File System driver Kernel
+WUDFWpdMtp   WUDFWpdMtp             Kernel
+xboxgip      Xbox Game Input Protoc Kernel
+xhunter1     xhunter1               Kernel        1/16/2019 3:11:09 PM
+xinputhid    XINPUT HID Filter Driv Kernel
+
+19. move
+berfungsi untuk memindahkan file
+C:\Users\hp>move d:\gendam.txt d:\KULIAH
+        1 file(s) moved.
+
+
+20. rename
+berfungsi untuk mengubah nama file
+C:\Users\hp>rename d:\KULIAH\gendam.txt acb.txt
+
+
+

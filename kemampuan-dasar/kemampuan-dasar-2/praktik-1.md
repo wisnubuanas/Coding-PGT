@@ -17,7 +17,7 @@
 ![](Aspose.Words.4287b99a-d0cf-4980-ba64-acb7151cf845.003.png)
 
 1. Selanjutnya menghubungkan Repo yang baru di buat ke di Github ke direktory 'Lokal' dan menambahkan 1 file bernama Readme.
-
+```
 $ echo "# Hello" >> README.md
 
 $ git init
@@ -31,7 +31,7 @@ $ git branch -M main
 $ git remote add origin https://github.com/wisnubuanas/test-github.git
 
 $ git push -u origin main
-
+```
 ![](Aspose.Words.4287b99a-d0cf-4980-ba64-acb7151cf845.003.png)
 
 1. Setelah itu halaman repo akan menjadi seperti ini
@@ -43,13 +43,13 @@ $ git push -u origin main
 ![](Aspose.Words.4287b99a-d0cf-4980-ba64-acb7151cf845.003.png)
 
 1. Masukan kode berikut
-
+```
 $ git add .
 
 $ gir commit -m
 
 $ git push
-
+```
 ![](Aspose.Words.4287b99a-d0cf-4980-ba64-acb7151cf845.003.png)
 
 1. Setelah itu cek kembali halaman repo 
@@ -68,8 +68,9 @@ $ git push
 
 ![](Aspose.Words.4287b99a-d0cf-4980-ba64-acb7151cf845.004.png)
 
+```
 $ get clone https://github.com/wisnubuanas/test-github.git
 
 $ cd Hello
-
+```
 

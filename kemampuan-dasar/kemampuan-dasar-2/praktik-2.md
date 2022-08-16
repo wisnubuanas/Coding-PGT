@@ -35,8 +35,8 @@ Memulai Pull Request
 
 Ada dua model pull request di Github:
 
-    - Fork & Pull Model - Digunakan di repositori publik yang tidak memiliki akses push
-    - Share Repository Model - Digunakan dalam repositori pribadi yang kita miliki akses push. Fork tidak diperlukan adalah case ini.
+- Fork & Pull Model - Digunakan di repositori publik yang tidak memiliki akses push
+- Share Repository Model - Digunakan dalam repositori pribadi yang kita miliki akses push. Fork tidak diperlukan adalah case ini.
     
 1. klik fork
 ![gambar](https://user-images.githubusercontent.com/111225906/184915239-fd4201e9-f9be-4488-b29b-b3d969fff1d1.png)
@@ -49,13 +49,18 @@ Ada dua model pull request di Github:
 ![gambar](https://user-images.githubusercontent.com/111225906/184915617-6ecc4205-a5e2-4ca5-8654-9c8a5c83164c.png)
 
 
-5. Selanjutnya kita clone Repository ini ke komputer Lokal :
+4. Selanjutnya kita clone Repository ini ke komputer Lokal :
 
+![gambar](https://user-images.githubusercontent.com/111225906/184919361-12b0d8dc-e04f-4a2d-859c-0febb3470cf5.png)
 
-```git Clone https://github.com/wisnubuanas/tes-github.git
+```
+$git Clone https://github.com/wisnubuanas/tes-github.git
 cd Oreo
 ```
-4. Kemudian buat cabang baru untuk membuat perubahan yang sangat sederhana untuk mengubah readme.md file :
+![gambar](https://user-images.githubusercontent.com/111225906/184919448-b77cce30-8679-4f68-8b6d-d5c4ac58b216.png)
+
+5. Kemudian buat cabang baru untuk membuat perubahan yang sangat sederhana untuk mengubah readme.md file :
+![gambar](https://user-images.githubusercontent.com/111225906/184922867-0c70c1e4-5dbd-47a3-9f37-09b508f37e83.png)
 
 
 ```
@@ -68,5 +73,9 @@ git commit -m "information"
 git push origin NEW
 ```
 
-Kembali di akun Contributor kita ke branch yang baru di buat & meng-klik Pull request secara otomatis kembali ke repo asli : 
+6. Kembali di akun Contributor kita ke branch yang baru di buat & meng-klik Pull request secara otomatis kembali ke repo asli : 
 
+![gambar](https://user-images.githubusercontent.com/111225906/184922658-07201bf6-d06b-40e4-b9aa-3411b44b02b6.png)
+
+![gambar](https://user-images.githubusercontent.com/111225906/184922767-87f18354-bcbc-4fde-8cd2-885298dea668.png)
+![gambar](https://user-images.githubusercontent.com/111225906/184922805-70ba1e10-ab1f-4fe9-a33a-d1f716ae8aec.png)

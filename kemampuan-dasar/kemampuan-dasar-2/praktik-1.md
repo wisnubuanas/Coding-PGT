@@ -1,4 +1,4 @@
-﻿**Langkah 1: Inisialisasi Proyek Baru**
+﻿## **Langkah 1: *Inisialisasi Proyek Baru***
 
 1. Buka Github dan klik tombol '+' di pojok kanan rop dan pilih 'New Repository'.
 
